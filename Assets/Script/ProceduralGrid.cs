@@ -45,7 +45,7 @@ public class ProceduralGrid : MonoBehaviour {
         {
             for (int y = 0; y <= gridSize; y++)
             {
-                vertices[v] = new Vector3((x * cellSize) - vertexOffset, (x+y) *0.2f, (y * cellSize) - vertexOffset);
+                vertices[v] = new Vector3((x * cellSize) - vertexOffset, 0f, (y * cellSize) - vertexOffset);
                 v++;
             }
         }
